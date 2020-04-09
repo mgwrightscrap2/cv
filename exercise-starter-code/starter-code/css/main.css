@@ -1,0 +1,95 @@
+*{
+    outline:1px solid orange;
+
+}
+
+body{
+    margin:0;
+    padding:0;
+}
+
+h1{
+    color: blue;
+    text-decoration:underline;
+    font-size:20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+/*div = display block. 
+span= display inline
+flex
+any element will display that way*/
+/*group is done using . and id is used with. its bad practice to use id for styling #*/
+
+.color1{
+    color: aqua;
+}
+
+#specificColor{
+    color:brown;
+}
+
+.color2{
+    color:pink;
+}
+
+
+/* make it look nice like microsoft window*
+justify is basically making the text line up
+hero is the massive pic on the landing page*/
+
+.hero{
+    width:100%;
+    height:200px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.text{
+    width:300px;
+    text-align:justify;
+
+}
+
+    /*top right bottom left*
+    
+    M B P content
+    
+    margin, boarder, padding
+    
+    
+    dont us ids and dont use important!*/
+
+
+.box{
+    width:150px;
+    height:180px;
+    padding: 20px 40px 20px 40px;
+    border: 5px solid black;
+    margin: 40px;
+}
+
+th, td{
+    padding: 15px;
+    color:red;
+}
+
+table a {
+    color: purple;
+
+}
+
+thread a {
+    font-size: 30px;
+
+}
+
+.row{
+    background:pink;
+}
+
+
+.row a {
+    letter-spacing:3px;
+}
